@@ -1,0 +1,16 @@
+PODS:
+  - SHClickTextView (1.0.3)
+
+DEPENDENCIES:
+  - SHClickTextView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SHClickTextView
+
+SPEC CHECKSUMS:
+  SHClickTextView: f032ef75e6fc6a5e8bfadcb07ef95be09984161d
+
+PODFILE CHECKSUM: b0b91f506ad438d12e640544c97f5cda2e903a5c
+
+COCOAPODS: 1.5.3
