@@ -1,5 +1,5 @@
 # SHAlertView
-# 使用 CoCoPods 倒入
+# 使用 pod 导入
 ```
 pod 'SHAlertView'
 ```
