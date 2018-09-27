@@ -21,7 +21,6 @@
 }
 
 - (IBAction)btn1Action:(id)sender {
-    
     SHAlertView *ale = [[SHAlertView alloc]initWithTitle:@"标题" message:@"内容" cancelTitle:@"取消" sureTitle:@"确认" cancelAction:nil sureAction:^{
         NSLog(@"确认");
     }];
