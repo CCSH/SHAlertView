@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -65,12 +65,27 @@
                                     <action selector="btn1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KV7-QR-Z4T"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBW-ni-RNW">
+                                <rect key="frame" x="137.5" y="390" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="6kn-gk-mDq"/>
+                                    <constraint firstAttribute="width" constant="100" id="Fyc-46-JwT"/>
+                                    <constraint firstAttribute="height" constant="30" id="O7E-nm-nMH"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="eBm-9E-MaQ"/>
+                                </constraints>
+                                <state key="normal" title="自定义视图"/>
+                                <connections>
+                                    <action selector="btn5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bSK-a7-cfV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dBW-ni-RNW" firstAttribute="top" secondItem="XwJ-xj-Fke" secondAttribute="bottom" constant="50" id="H2p-iZ-jNH"/>
                             <constraint firstItem="BO1-0f-C5F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LDx-T6-6WZ"/>
                             <constraint firstItem="6dD-I8-rdN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YHo-OQ-OSL"/>
                             <constraint firstItem="G9N-CF-dsd" firstAttribute="top" secondItem="6dD-I8-rdN" secondAttribute="bottom" constant="50" id="bru-6Q-mVQ"/>
+                            <constraint firstItem="dBW-ni-RNW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dWB-CB-PKb"/>
                             <constraint firstItem="XwJ-xj-Fke" firstAttribute="top" secondItem="BO1-0f-C5F" secondAttribute="bottom" constant="50" id="eRu-Yt-VLE"/>
                             <constraint firstItem="G9N-CF-dsd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gDh-co-PF8"/>
                             <constraint firstItem="6dD-I8-rdN" firstAttribute="top" secondItem="89g-TD-wBt" secondAttribute="bottom" constant="50" id="hjP-IU-IIc"/>

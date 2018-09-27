@@ -65,6 +65,19 @@
     [ale show];
 }
 
+- (IBAction)btn5Action:(id)sender {
+    
+    UILabel *lab = [[UILabel alloc]init];
+    lab.frame = CGRectMake(0, 0, kAlertContentWidth, 300);
+    lab.backgroundColor = [UIColor orangeColor];
+    lab.text = @"asdkfhsakld";
+    
+    SHAlertView *ale = [[SHAlertView alloc]initWithIcon:[UIImage imageNamed:@"help_thank_note_inset"] view:lab cancelTitle:@"取消" sureTitle:@"确认" cancelAction:nil sureAction:^{
+        NSLog(@"确认");
+    }];
+    [ale show];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

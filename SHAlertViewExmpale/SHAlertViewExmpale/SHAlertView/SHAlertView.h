@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <SHClickTextView.h>
 
+#define kSHWidth  [UIScreen mainScreen].bounds.size.width
+#define kSHHeight  [UIScreen mainScreen].bounds.size.height
+//弹框宽
+#define kAlertContentWidth MIN(kSHWidth*0.75, 300)
+
 typedef void(^AlertSureAction) (void);
 typedef void(^AlertCancelAction) (void);
 typedef void(^AlertTextAction) (NSString *parameter);
@@ -19,7 +24,7 @@ typedef void(^AlertTextAction) (NSString *parameter);
 @interface SHAlertView : UIView
 
 /**
- 初始化
+ 初始化(标准)
 
  @param title 标题 (可以是 NSString、NSAttributedString)
  @param message 内容 (可以是 NSString、NSAttributedString)
@@ -89,6 +94,38 @@ typedef void(^AlertTextAction) (NSString *parameter);
                     sureTitle:(NSString *)sureTitle
                  cancelAction:(AlertCancelAction)cancelAction
                    sureAction:(AlertSureAction)sureAction;
+
+/**
+ 初始化(图标、自定义视图)
+ 
+ @param view 自定义视图
+ @param cancelTitle 取消名称
+ @param sureTitle 确认名称
+ @param cancelAction 取消回调
+ @param sureAction 确认回调
+ */
+- (instancetype)initWithIcon:(UIImage *)icon
+                        view:(UIView *)view
+                 cancelTitle:(NSString *)cancelTitle
+                   sureTitle:(NSString *)sureTitle
+                cancelAction:(AlertCancelAction)cancelAction
+                  sureAction:(AlertSureAction)sureAction;
+
+/**
+ 初始化(自定义视图)
+
+ @param view 自定义视图
+ @param cancelTitle 取消名称
+ @param sureTitle 确认名称
+ @param cancelAction 取消回调
+ @param sureAction 确认回调
+ */
+- (instancetype)initWithView:(UIView *)view
+                 cancelTitle:(NSString *)cancelTitle
+                   sureTitle:(NSString *)sureTitle
+                cancelAction:(AlertCancelAction)cancelAction
+                  sureAction:(AlertSureAction)sureAction;
+
 
 /**
  显示在window上
