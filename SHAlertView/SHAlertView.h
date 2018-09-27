@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SHClickTextView.h"
 
 #define kSHWidth  [UIScreen mainScreen].bounds.size.width
 #define kSHHeight  [UIScreen mainScreen].bounds.size.height
@@ -45,7 +44,7 @@ typedef void(^AlertTextAction) (NSString *parameter);
 
  @param title 标题 (可以是 NSString、NSAttributedString)
  @param messageAtt 内容(富文本)
- @param parameArr 属性集合
+ @param parameArr 属性集合(SHClickTextModel)
  @param cancelTitle 取消名称
  @param sureTitle 确认名称
  @param cancelAction 取消回调
@@ -54,7 +53,7 @@ typedef void(^AlertTextAction) (NSString *parameter);
  */
 - (instancetype)initWithTitle:(id)title
                    messageAtt:(NSAttributedString *)messageAtt
-                    parameArr:(NSArray <SHClickTextModel *>*)parameArr
+                    parameArr:(NSArray *)parameArr
                   cancelTitle:(NSString *)cancelTitle
                     sureTitle:(NSString *)sureTitle
                  cancelAction:(AlertCancelAction)cancelAction

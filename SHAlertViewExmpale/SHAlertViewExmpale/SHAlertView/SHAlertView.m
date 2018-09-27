@@ -4,9 +4,10 @@
 //
 //  Created by CSH on 2018/8/24.
 //  Copyright © 2018年 CSH. All rights reserved.
-//
+// 
 
 #import "SHAlertView.h"
+#import "SHClickTextView.h"
 
 @interface SHAlertView ()
 
