@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SHClickTextView.h>
+#import "SHClickTextView.h"
 
 #define kSHWidth  [UIScreen mainScreen].bounds.size.width
 #define kSHHeight  [UIScreen mainScreen].bounds.size.height

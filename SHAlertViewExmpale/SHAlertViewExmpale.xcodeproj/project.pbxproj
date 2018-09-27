@@ -7,78 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C5E0E582130E8EA001733DA /* help_thank_note_inset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5E0E572130E8EA001733DA /* help_thank_note_inset@2x.png */; };
-		5C938247212FF5AE00DB07A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C938246212FF5AE00DB07A8 /* AppDelegate.m */; };
-		5C93824A212FF5AE00DB07A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C938249212FF5AE00DB07A8 /* ViewController.m */; };
-		5C93824D212FF5AE00DB07A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C93824B212FF5AE00DB07A8 /* Main.storyboard */; };
-		5C93824F212FF5AF00DB07A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C93824E212FF5AF00DB07A8 /* Assets.xcassets */; };
-		5C938252212FF5AF00DB07A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C938250212FF5AF00DB07A8 /* LaunchScreen.storyboard */; };
-		5C938255212FF5AF00DB07A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C938254212FF5AF00DB07A8 /* main.m */; };
-		5C93825F212FF5AF00DB07A8 /* SHAlertViewExmpaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C93825E212FF5AF00DB07A8 /* SHAlertViewExmpaleTests.m */; };
-		5C93826A212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C938269212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests.m */; };
-		5C93827A212FF60D00DB07A8 /* SHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C938279212FF60D00DB07A8 /* SHAlertView.m */; };
-		E7079E583BB0A97B934C82D7 /* libPods-SHAlertViewExmpale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCABBC95A545A653DE23DF9B /* libPods-SHAlertViewExmpale.a */; };
+		5C4E7639215CBD5700090DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E7638215CBD5700090DFC /* AppDelegate.m */; };
+		5C4E7641215CBD5800090DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E7640215CBD5800090DFC /* Assets.xcassets */; };
+		5C4E7644215CBD5800090DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E7642215CBD5800090DFC /* LaunchScreen.storyboard */; };
+		5C4E7647215CBD5800090DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E7646215CBD5800090DFC /* main.m */; };
+		5C4E7651215CBD5900090DFC /* SHAlertViewExmpaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E7650215CBD5900090DFC /* SHAlertViewExmpaleTests.m */; };
+		5C4E765C215CBD5900090DFC /* SHAlertViewExmpaleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E765B215CBD5900090DFC /* SHAlertViewExmpaleUITests.m */; };
+		5C4E766C215CBD6400090DFC /* SHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E766B215CBD6400090DFC /* SHAlertView.m */; };
+		5C4E7674215CBD6E00090DFC /* SHClickTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E766F215CBD6E00090DFC /* SHClickTextModel.m */; };
+		5C4E7675215CBD6E00090DFC /* SHClickTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E7670215CBD6E00090DFC /* SHClickTextView.m */; };
+		5C4E7676215CBD6E00090DFC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E7673215CBD6E00090DFC /* README.md */; };
+		5C4E7678215CBD7700090DFC /* help_thank_note_inset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E7677215CBD7700090DFC /* help_thank_note_inset@2x.png */; };
+		5C4E767A215CBD8D00090DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E7679215CBD8D00090DFC /* Main.storyboard */; };
+		5C4E767D215CBDA300090DFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E767C215CBDA300090DFC /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C93825B212FF5AF00DB07A8 /* PBXContainerItemProxy */ = {
+		5C4E764D215CBD5800090DFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5C93823A212FF5AE00DB07A8 /* Project object */;
+			containerPortal = 5C4E762C215CBD5700090DFC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C938241212FF5AE00DB07A8;
+			remoteGlobalIDString = 5C4E7633215CBD5700090DFC;
 			remoteInfo = SHAlertViewExmpale;
 		};
-		5C938266212FF5AF00DB07A8 /* PBXContainerItemProxy */ = {
+		5C4E7658215CBD5900090DFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5C93823A212FF5AE00DB07A8 /* Project object */;
+			containerPortal = 5C4E762C215CBD5700090DFC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C938241212FF5AE00DB07A8;
+			remoteGlobalIDString = 5C4E7633215CBD5700090DFC;
 			remoteInfo = SHAlertViewExmpale;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		518327E048C14B901089493A /* Pods-SHAlertViewExmpale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHAlertViewExmpale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHAlertViewExmpale/Pods-SHAlertViewExmpale.debug.xcconfig"; sourceTree = "<group>"; };
-		5C5E0E572130E8EA001733DA /* help_thank_note_inset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help_thank_note_inset@2x.png"; sourceTree = "<group>"; };
-		5C938242212FF5AE00DB07A8 /* SHAlertViewExmpale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHAlertViewExmpale.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C938245212FF5AE00DB07A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5C938246212FF5AE00DB07A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5C938248212FF5AE00DB07A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5C938249212FF5AE00DB07A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5C93824C212FF5AE00DB07A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5C93824E212FF5AF00DB07A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C938251212FF5AF00DB07A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5C938253212FF5AF00DB07A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C938254212FF5AF00DB07A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5C93825A212FF5AF00DB07A8 /* SHAlertViewExmpaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHAlertViewExmpaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C93825E212FF5AF00DB07A8 /* SHAlertViewExmpaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAlertViewExmpaleTests.m; sourceTree = "<group>"; };
-		5C938260212FF5AF00DB07A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C938265212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHAlertViewExmpaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C938269212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAlertViewExmpaleUITests.m; sourceTree = "<group>"; };
-		5C93826B212FF5AF00DB07A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C938278212FF60D00DB07A8 /* SHAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAlertView.h; sourceTree = "<group>"; };
-		5C938279212FF60D00DB07A8 /* SHAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAlertView.m; sourceTree = "<group>"; };
-		7D0D35246318909F9614E503 /* Pods-SHAlertViewExmpale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHAlertViewExmpale.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHAlertViewExmpale/Pods-SHAlertViewExmpale.release.xcconfig"; sourceTree = "<group>"; };
-		CCABBC95A545A653DE23DF9B /* libPods-SHAlertViewExmpale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHAlertViewExmpale.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4E7634215CBD5700090DFC /* SHAlertViewExmpale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHAlertViewExmpale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4E7637215CBD5700090DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C4E7638215CBD5700090DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C4E7640215CBD5800090DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C4E7643215CBD5800090DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C4E7645215CBD5800090DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4E7646215CBD5800090DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C4E764C215CBD5800090DFC /* SHAlertViewExmpaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHAlertViewExmpaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4E7650215CBD5900090DFC /* SHAlertViewExmpaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAlertViewExmpaleTests.m; sourceTree = "<group>"; };
+		5C4E7652215CBD5900090DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4E7657215CBD5900090DFC /* SHAlertViewExmpaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHAlertViewExmpaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4E765B215CBD5900090DFC /* SHAlertViewExmpaleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAlertViewExmpaleUITests.m; sourceTree = "<group>"; };
+		5C4E765D215CBD5900090DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4E766A215CBD6400090DFC /* SHAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAlertView.h; sourceTree = "<group>"; };
+		5C4E766B215CBD6400090DFC /* SHAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAlertView.m; sourceTree = "<group>"; };
+		5C4E766F215CBD6E00090DFC /* SHClickTextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHClickTextModel.m; sourceTree = "<group>"; };
+		5C4E7670215CBD6E00090DFC /* SHClickTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHClickTextView.m; sourceTree = "<group>"; };
+		5C4E7671215CBD6E00090DFC /* SHClickTextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHClickTextModel.h; sourceTree = "<group>"; };
+		5C4E7672215CBD6E00090DFC /* SHClickTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHClickTextView.h; sourceTree = "<group>"; };
+		5C4E7673215CBD6E00090DFC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C4E7677215CBD7700090DFC /* help_thank_note_inset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help_thank_note_inset@2x.png"; sourceTree = "<group>"; };
+		5C4E7679215CBD8D00090DFC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5C4E767B215CBDA200090DFC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C4E767C215CBDA300090DFC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5C93823F212FF5AE00DB07A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7079E583BB0A97B934C82D7 /* libPods-SHAlertViewExmpale.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C938257212FF5AF00DB07A8 /* Frameworks */ = {
+		5C4E7631215CBD5700090DFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C938262212FF5AF00DB07A8 /* Frameworks */ = {
+		5C4E7649215CBD5800090DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4E7654215CBD5900090DFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,101 +91,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B9939ADFE58240BC826FAD3 /* Pods */ = {
+		5C4E762B215CBD5700090DFC = {
 			isa = PBXGroup;
 			children = (
-				518327E048C14B901089493A /* Pods-SHAlertViewExmpale.debug.xcconfig */,
-				7D0D35246318909F9614E503 /* Pods-SHAlertViewExmpale.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5C938239212FF5AE00DB07A8 = {
-			isa = PBXGroup;
-			children = (
-				5C938244212FF5AE00DB07A8 /* SHAlertViewExmpale */,
-				5C93825D212FF5AF00DB07A8 /* SHAlertViewExmpaleTests */,
-				5C938268212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests */,
-				5C938243212FF5AE00DB07A8 /* Products */,
-				1B9939ADFE58240BC826FAD3 /* Pods */,
-				B4B57B6C8F4F3594B1DF2F71 /* Frameworks */,
+				5C4E7636215CBD5700090DFC /* SHAlertViewExmpale */,
+				5C4E764F215CBD5800090DFC /* SHAlertViewExmpaleTests */,
+				5C4E765A215CBD5900090DFC /* SHAlertViewExmpaleUITests */,
+				5C4E7635215CBD5700090DFC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5C938243212FF5AE00DB07A8 /* Products */ = {
+		5C4E7635215CBD5700090DFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C938242212FF5AE00DB07A8 /* SHAlertViewExmpale.app */,
-				5C93825A212FF5AF00DB07A8 /* SHAlertViewExmpaleTests.xctest */,
-				5C938265212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests.xctest */,
+				5C4E7634215CBD5700090DFC /* SHAlertViewExmpale.app */,
+				5C4E764C215CBD5800090DFC /* SHAlertViewExmpaleTests.xctest */,
+				5C4E7657215CBD5900090DFC /* SHAlertViewExmpaleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C938244212FF5AE00DB07A8 /* SHAlertViewExmpale */ = {
+		5C4E7636215CBD5700090DFC /* SHAlertViewExmpale */ = {
 			isa = PBXGroup;
 			children = (
-				5C5E0E572130E8EA001733DA /* help_thank_note_inset@2x.png */,
-				5C938277212FF5C000DB07A8 /* SHAlertView */,
-				5C938245212FF5AE00DB07A8 /* AppDelegate.h */,
-				5C938246212FF5AE00DB07A8 /* AppDelegate.m */,
-				5C938248212FF5AE00DB07A8 /* ViewController.h */,
-				5C938249212FF5AE00DB07A8 /* ViewController.m */,
-				5C93824B212FF5AE00DB07A8 /* Main.storyboard */,
-				5C93824E212FF5AF00DB07A8 /* Assets.xcassets */,
-				5C938250212FF5AF00DB07A8 /* LaunchScreen.storyboard */,
-				5C938253212FF5AF00DB07A8 /* Info.plist */,
-				5C938254212FF5AF00DB07A8 /* main.m */,
+				5C4E7677215CBD7700090DFC /* help_thank_note_inset@2x.png */,
+				5C4E766D215CBD6E00090DFC /* SHClickTextView */,
+				5C4E7669215CBD6400090DFC /* SHAlertView */,
+				5C4E7637215CBD5700090DFC /* AppDelegate.h */,
+				5C4E7638215CBD5700090DFC /* AppDelegate.m */,
+				5C4E767B215CBDA200090DFC /* ViewController.h */,
+				5C4E767C215CBDA300090DFC /* ViewController.m */,
+				5C4E7679215CBD8D00090DFC /* Main.storyboard */,
+				5C4E7640215CBD5800090DFC /* Assets.xcassets */,
+				5C4E7642215CBD5800090DFC /* LaunchScreen.storyboard */,
+				5C4E7645215CBD5800090DFC /* Info.plist */,
+				5C4E7646215CBD5800090DFC /* main.m */,
 			);
 			path = SHAlertViewExmpale;
 			sourceTree = "<group>";
 		};
-		5C93825D212FF5AF00DB07A8 /* SHAlertViewExmpaleTests */ = {
+		5C4E764F215CBD5800090DFC /* SHAlertViewExmpaleTests */ = {
 			isa = PBXGroup;
 			children = (
-				5C93825E212FF5AF00DB07A8 /* SHAlertViewExmpaleTests.m */,
-				5C938260212FF5AF00DB07A8 /* Info.plist */,
+				5C4E7650215CBD5900090DFC /* SHAlertViewExmpaleTests.m */,
+				5C4E7652215CBD5900090DFC /* Info.plist */,
 			);
 			path = SHAlertViewExmpaleTests;
 			sourceTree = "<group>";
 		};
-		5C938268212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests */ = {
+		5C4E765A215CBD5900090DFC /* SHAlertViewExmpaleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5C938269212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests.m */,
-				5C93826B212FF5AF00DB07A8 /* Info.plist */,
+				5C4E765B215CBD5900090DFC /* SHAlertViewExmpaleUITests.m */,
+				5C4E765D215CBD5900090DFC /* Info.plist */,
 			);
 			path = SHAlertViewExmpaleUITests;
 			sourceTree = "<group>";
 		};
-		5C938277212FF5C000DB07A8 /* SHAlertView */ = {
+		5C4E7669215CBD6400090DFC /* SHAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				5C938278212FF60D00DB07A8 /* SHAlertView.h */,
-				5C938279212FF60D00DB07A8 /* SHAlertView.m */,
+				5C4E766A215CBD6400090DFC /* SHAlertView.h */,
+				5C4E766B215CBD6400090DFC /* SHAlertView.m */,
 			);
 			path = SHAlertView;
 			sourceTree = "<group>";
 		};
-		B4B57B6C8F4F3594B1DF2F71 /* Frameworks */ = {
+		5C4E766D215CBD6E00090DFC /* SHClickTextView */ = {
 			isa = PBXGroup;
 			children = (
-				CCABBC95A545A653DE23DF9B /* libPods-SHAlertViewExmpale.a */,
+				5C4E766E215CBD6E00090DFC /* SHClickTextView */,
+				5C4E7673215CBD6E00090DFC /* README.md */,
 			);
-			name = Frameworks;
+			path = SHClickTextView;
+			sourceTree = "<group>";
+		};
+		5C4E766E215CBD6E00090DFC /* SHClickTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5C4E766F215CBD6E00090DFC /* SHClickTextModel.m */,
+				5C4E7670215CBD6E00090DFC /* SHClickTextView.m */,
+				5C4E7671215CBD6E00090DFC /* SHClickTextModel.h */,
+				5C4E7672215CBD6E00090DFC /* SHClickTextView.h */,
+			);
+			path = SHClickTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C938241212FF5AE00DB07A8 /* SHAlertViewExmpale */ = {
+		5C4E7633215CBD5700090DFC /* SHAlertViewExmpale */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C93826E212FF5AF00DB07A8 /* Build configuration list for PBXNativeTarget "SHAlertViewExmpale" */;
+			buildConfigurationList = 5C4E7660215CBD5900090DFC /* Build configuration list for PBXNativeTarget "SHAlertViewExmpale" */;
 			buildPhases = (
-				ECB9267D76D50DD8B9580A6F /* [CP] Check Pods Manifest.lock */,
-				5C93823E212FF5AE00DB07A8 /* Sources */,
-				5C93823F212FF5AE00DB07A8 /* Frameworks */,
-				5C938240212FF5AE00DB07A8 /* Resources */,
+				5C4E7630215CBD5700090DFC /* Sources */,
+				5C4E7631215CBD5700090DFC /* Frameworks */,
+				5C4E7632215CBD5700090DFC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -190,68 +194,68 @@
 			);
 			name = SHAlertViewExmpale;
 			productName = SHAlertViewExmpale;
-			productReference = 5C938242212FF5AE00DB07A8 /* SHAlertViewExmpale.app */;
+			productReference = 5C4E7634215CBD5700090DFC /* SHAlertViewExmpale.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C938259212FF5AF00DB07A8 /* SHAlertViewExmpaleTests */ = {
+		5C4E764B215CBD5800090DFC /* SHAlertViewExmpaleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C938271212FF5AF00DB07A8 /* Build configuration list for PBXNativeTarget "SHAlertViewExmpaleTests" */;
+			buildConfigurationList = 5C4E7663215CBD5900090DFC /* Build configuration list for PBXNativeTarget "SHAlertViewExmpaleTests" */;
 			buildPhases = (
-				5C938256212FF5AF00DB07A8 /* Sources */,
-				5C938257212FF5AF00DB07A8 /* Frameworks */,
-				5C938258212FF5AF00DB07A8 /* Resources */,
+				5C4E7648215CBD5800090DFC /* Sources */,
+				5C4E7649215CBD5800090DFC /* Frameworks */,
+				5C4E764A215CBD5800090DFC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5C93825C212FF5AF00DB07A8 /* PBXTargetDependency */,
+				5C4E764E215CBD5800090DFC /* PBXTargetDependency */,
 			);
 			name = SHAlertViewExmpaleTests;
 			productName = SHAlertViewExmpaleTests;
-			productReference = 5C93825A212FF5AF00DB07A8 /* SHAlertViewExmpaleTests.xctest */;
+			productReference = 5C4E764C215CBD5800090DFC /* SHAlertViewExmpaleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5C938264212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests */ = {
+		5C4E7656215CBD5900090DFC /* SHAlertViewExmpaleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C938274212FF5AF00DB07A8 /* Build configuration list for PBXNativeTarget "SHAlertViewExmpaleUITests" */;
+			buildConfigurationList = 5C4E7666215CBD5900090DFC /* Build configuration list for PBXNativeTarget "SHAlertViewExmpaleUITests" */;
 			buildPhases = (
-				5C938261212FF5AF00DB07A8 /* Sources */,
-				5C938262212FF5AF00DB07A8 /* Frameworks */,
-				5C938263212FF5AF00DB07A8 /* Resources */,
+				5C4E7653215CBD5900090DFC /* Sources */,
+				5C4E7654215CBD5900090DFC /* Frameworks */,
+				5C4E7655215CBD5900090DFC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5C938267212FF5AF00DB07A8 /* PBXTargetDependency */,
+				5C4E7659215CBD5900090DFC /* PBXTargetDependency */,
 			);
 			name = SHAlertViewExmpaleUITests;
 			productName = SHAlertViewExmpaleUITests;
-			productReference = 5C938265212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests.xctest */;
+			productReference = 5C4E7657215CBD5900090DFC /* SHAlertViewExmpaleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5C93823A212FF5AE00DB07A8 /* Project object */ = {
+		5C4E762C215CBD5700090DFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = CSH;
 				TargetAttributes = {
-					5C938241212FF5AE00DB07A8 = {
-						CreatedOnToolsVersion = 9.4.1;
+					5C4E7633215CBD5700090DFC = {
+						CreatedOnToolsVersion = 10.0;
 					};
-					5C938259212FF5AF00DB07A8 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 5C938241212FF5AE00DB07A8;
+					5C4E764B215CBD5800090DFC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5C4E7633215CBD5700090DFC;
 					};
-					5C938264212FF5AF00DB07A8 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 5C938241212FF5AE00DB07A8;
+					5C4E7656215CBD5900090DFC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5C4E7633215CBD5700090DFC;
 					};
 				};
 			};
-			buildConfigurationList = 5C93823D212FF5AE00DB07A8 /* Build configuration list for PBXProject "SHAlertViewExmpale" */;
+			buildConfigurationList = 5C4E762F215CBD5700090DFC /* Build configuration list for PBXProject "SHAlertViewExmpale" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,38 +263,39 @@
 				en,
 				Base,
 			);
-			mainGroup = 5C938239212FF5AE00DB07A8;
-			productRefGroup = 5C938243212FF5AE00DB07A8 /* Products */;
+			mainGroup = 5C4E762B215CBD5700090DFC;
+			productRefGroup = 5C4E7635215CBD5700090DFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C938241212FF5AE00DB07A8 /* SHAlertViewExmpale */,
-				5C938259212FF5AF00DB07A8 /* SHAlertViewExmpaleTests */,
-				5C938264212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests */,
+				5C4E7633215CBD5700090DFC /* SHAlertViewExmpale */,
+				5C4E764B215CBD5800090DFC /* SHAlertViewExmpaleTests */,
+				5C4E7656215CBD5900090DFC /* SHAlertViewExmpaleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C938240212FF5AE00DB07A8 /* Resources */ = {
+		5C4E7632215CBD5700090DFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C938252212FF5AF00DB07A8 /* LaunchScreen.storyboard in Resources */,
-				5C93824F212FF5AF00DB07A8 /* Assets.xcassets in Resources */,
-				5C5E0E582130E8EA001733DA /* help_thank_note_inset@2x.png in Resources */,
-				5C93824D212FF5AE00DB07A8 /* Main.storyboard in Resources */,
+				5C4E7644215CBD5800090DFC /* LaunchScreen.storyboard in Resources */,
+				5C4E767A215CBD8D00090DFC /* Main.storyboard in Resources */,
+				5C4E7641215CBD5800090DFC /* Assets.xcassets in Resources */,
+				5C4E7678215CBD7700090DFC /* help_thank_note_inset@2x.png in Resources */,
+				5C4E7676215CBD6E00090DFC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C938258212FF5AF00DB07A8 /* Resources */ = {
+		5C4E764A215CBD5800090DFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C938263212FF5AF00DB07A8 /* Resources */ = {
+		5C4E7655215CBD5900090DFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,83 +304,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		ECB9267D76D50DD8B9580A6F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SHAlertViewExmpale-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		5C93823E212FF5AE00DB07A8 /* Sources */ = {
+		5C4E7630215CBD5700090DFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C93824A212FF5AE00DB07A8 /* ViewController.m in Sources */,
-				5C938255212FF5AF00DB07A8 /* main.m in Sources */,
-				5C93827A212FF60D00DB07A8 /* SHAlertView.m in Sources */,
-				5C938247212FF5AE00DB07A8 /* AppDelegate.m in Sources */,
+				5C4E767D215CBDA300090DFC /* ViewController.m in Sources */,
+				5C4E7675215CBD6E00090DFC /* SHClickTextView.m in Sources */,
+				5C4E7647215CBD5800090DFC /* main.m in Sources */,
+				5C4E7674215CBD6E00090DFC /* SHClickTextModel.m in Sources */,
+				5C4E766C215CBD6400090DFC /* SHAlertView.m in Sources */,
+				5C4E7639215CBD5700090DFC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C938256212FF5AF00DB07A8 /* Sources */ = {
+		5C4E7648215CBD5800090DFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C93825F212FF5AF00DB07A8 /* SHAlertViewExmpaleTests.m in Sources */,
+				5C4E7651215CBD5900090DFC /* SHAlertViewExmpaleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C938261212FF5AF00DB07A8 /* Sources */ = {
+		5C4E7653215CBD5900090DFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C93826A212FF5AF00DB07A8 /* SHAlertViewExmpaleUITests.m in Sources */,
+				5C4E765C215CBD5900090DFC /* SHAlertViewExmpaleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5C93825C212FF5AF00DB07A8 /* PBXTargetDependency */ = {
+		5C4E764E215CBD5800090DFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C938241212FF5AE00DB07A8 /* SHAlertViewExmpale */;
-			targetProxy = 5C93825B212FF5AF00DB07A8 /* PBXContainerItemProxy */;
+			target = 5C4E7633215CBD5700090DFC /* SHAlertViewExmpale */;
+			targetProxy = 5C4E764D215CBD5800090DFC /* PBXContainerItemProxy */;
 		};
-		5C938267212FF5AF00DB07A8 /* PBXTargetDependency */ = {
+		5C4E7659215CBD5900090DFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C938241212FF5AE00DB07A8 /* SHAlertViewExmpale */;
-			targetProxy = 5C938266212FF5AF00DB07A8 /* PBXContainerItemProxy */;
+			target = 5C4E7633215CBD5700090DFC /* SHAlertViewExmpale */;
+			targetProxy = 5C4E7658215CBD5900090DFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5C93824B212FF5AE00DB07A8 /* Main.storyboard */ = {
+		5C4E7642215CBD5800090DFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5C93824C212FF5AE00DB07A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5C938250212FF5AF00DB07A8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C938251212FF5AF00DB07A8 /* Base */,
+				5C4E7643215CBD5800090DFC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -383,7 +361,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5C93826C212FF5AF00DB07A8 /* Debug */ = {
+		5C4E765E215CBD5900090DFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,14 +412,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		5C93826D212FF5AF00DB07A8 /* Release */ = {
+		5C4E765F215CBD5900090DFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -486,21 +465,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5C93826F212FF5AF00DB07A8 /* Debug */ = {
+		5C4E7661215CBD5900090DFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 518327E048C14B901089493A /* Pods-SHAlertViewExmpale.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SHAlertViewExmpale/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -511,14 +489,12 @@
 			};
 			name = Debug;
 		};
-		5C938270212FF5AF00DB07A8 /* Release */ = {
+		5C4E7662215CBD5900090DFC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D0D35246318909F9614E503 /* Pods-SHAlertViewExmpale.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SHAlertViewExmpale/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,7 +505,7 @@
 			};
 			name = Release;
 		};
-		5C938272212FF5AF00DB07A8 /* Debug */ = {
+		5C4E7664215CBD5900090DFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -547,7 +523,7 @@
 			};
 			name = Debug;
 		};
-		5C938273212FF5AF00DB07A8 /* Release */ = {
+		5C4E7665215CBD5900090DFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -565,7 +541,7 @@
 			};
 			name = Release;
 		};
-		5C938275212FF5AF00DB07A8 /* Debug */ = {
+		5C4E7667215CBD5900090DFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -582,7 +558,7 @@
 			};
 			name = Debug;
 		};
-		5C938276212FF5AF00DB07A8 /* Release */ = {
+		5C4E7668215CBD5900090DFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -602,43 +578,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C93823D212FF5AE00DB07A8 /* Build configuration list for PBXProject "SHAlertViewExmpale" */ = {
+		5C4E762F215CBD5700090DFC /* Build configuration list for PBXProject "SHAlertViewExmpale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C93826C212FF5AF00DB07A8 /* Debug */,
-				5C93826D212FF5AF00DB07A8 /* Release */,
+				5C4E765E215CBD5900090DFC /* Debug */,
+				5C4E765F215CBD5900090DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C93826E212FF5AF00DB07A8 /* Build configuration list for PBXNativeTarget "SHAlertViewExmpale" */ = {
+		5C4E7660215CBD5900090DFC /* Build configuration list for PBXNativeTarget "SHAlertViewExmpale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C93826F212FF5AF00DB07A8 /* Debug */,
-				5C938270212FF5AF00DB07A8 /* Release */,
+				5C4E7661215CBD5900090DFC /* Debug */,
+				5C4E7662215CBD5900090DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C938271212FF5AF00DB07A8 /* Build configuration list for PBXNativeTarget "SHAlertViewExmpaleTests" */ = {
+		5C4E7663215CBD5900090DFC /* Build configuration list for PBXNativeTarget "SHAlertViewExmpaleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C938272212FF5AF00DB07A8 /* Debug */,
-				5C938273212FF5AF00DB07A8 /* Release */,
+				5C4E7664215CBD5900090DFC /* Debug */,
+				5C4E7665215CBD5900090DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C938274212FF5AF00DB07A8 /* Build configuration list for PBXNativeTarget "SHAlertViewExmpaleUITests" */ = {
+		5C4E7666215CBD5900090DFC /* Build configuration list for PBXNativeTarget "SHAlertViewExmpaleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C938275212FF5AF00DB07A8 /* Debug */,
-				5C938276212FF5AF00DB07A8 /* Release */,
+				5C4E7667215CBD5900090DFC /* Debug */,
+				5C4E7668215CBD5900090DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5C93823A212FF5AE00DB07A8 /* Project object */;
+	rootObject = 5C4E762C215CBD5700090DFC /* Project object */;
 }

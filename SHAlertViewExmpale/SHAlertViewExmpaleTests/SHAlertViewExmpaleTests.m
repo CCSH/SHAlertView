@@ -2,7 +2,7 @@
 //  SHAlertViewExmpaleTests.m
 //  SHAlertViewExmpaleTests
 //
-//  Created by CSH on 2018/8/24.
+//  Created by CSH on 2018/9/27.
 //  Copyright © 2018年 CSH. All rights reserved.
 //
 
@@ -15,13 +15,11 @@
 @implementation SHAlertViewExmpaleTests
 
 - (void)setUp {
-    [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
 }
 
 - (void)testExample {
