@@ -72,7 +72,10 @@
     lab.backgroundColor = [UIColor orangeColor];
     lab.text = @"asdkfhsakld";
     
-    SHAlertView *ale = [[SHAlertView alloc]initWithIcon:[UIImage imageNamed:@"help_thank_note_inset"] view:lab cancelTitle:@"取消" sureTitle:@"确认" cancelAction:nil sureAction:^{
+//    SHAlertView *ale = [[SHAlertView alloc]initWithIcon:[UIImage imageNamed:@"help_thank_note_inset"] view:lab cancelTitle:@"取消" sureTitle:@"确认" cancelAction:nil sureAction:^{
+//        NSLog(@"确认");
+//    }];
+    SHAlertView *ale = [[SHAlertView alloc]initWithView:lab cancelTitle:@"取消" sureTitle:@"确认" cancelAction:nil sureAction:^{
         NSLog(@"确认");
     }];
     [ale show];
