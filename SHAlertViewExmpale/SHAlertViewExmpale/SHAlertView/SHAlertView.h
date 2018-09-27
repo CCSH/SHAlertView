@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SHClickTextView.h"
 
 #define kSHWidth  [UIScreen mainScreen].bounds.size.width
 #define kSHHeight  [UIScreen mainScreen].bounds.size.height
@@ -53,7 +54,7 @@ typedef void(^AlertTextAction) (NSString *parameter);
  */
 - (instancetype)initWithTitle:(id)title
                    messageAtt:(NSAttributedString *)messageAtt
-                    parameArr:(NSArray *)parameArr
+                    parameArr:(NSArray <SHClickTextModel *>*)parameArr
                   cancelTitle:(NSString *)cancelTitle
                     sureTitle:(NSString *)sureTitle
                  cancelAction:(AlertCancelAction)cancelAction

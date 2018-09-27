@@ -7,7 +7,6 @@
 // 
 
 #import "SHAlertView.h"
-#import "SHClickTextView.h"
 
 @interface SHAlertView ()
 

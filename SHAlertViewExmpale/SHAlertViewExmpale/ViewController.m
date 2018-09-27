@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "SHAlertView.h"
-#import "SHClickTextModel.h"
 
 @interface ViewController ()
 
