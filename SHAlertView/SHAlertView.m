@@ -214,7 +214,7 @@
 - (CGFloat)addView:(UIView *)view viewY:(CGFloat)viewY{
     
     if (view) {
-        view.frame = CGRectMake(0, viewY, kAlertContentWidth, view.frame.size.height);
+        view.frame = CGRectMake(CGRectGetMinX(view.frame), viewY + CGRectGetMinY(view.frame), CGRectGetWidth(view.frame), CGRectGetHeight(view.frame));
         [self.mainView addSubview:view];
         viewY = CGRectGetMaxY(view.frame);
     }

@@ -67,7 +67,7 @@
 - (IBAction)btn5Action:(id)sender {
     
     UILabel *lab = [[UILabel alloc]init];
-    lab.frame = CGRectMake(0, 0, kAlertContentWidth, 300);
+    lab.frame = CGRectMake(20, 30, 100, 200);
     lab.backgroundColor = [UIColor orangeColor];
     lab.text = @"asdkfhsakld";
     
