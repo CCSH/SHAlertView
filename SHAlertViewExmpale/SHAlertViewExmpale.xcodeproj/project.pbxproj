@@ -17,8 +17,7 @@
 		5C4E7700215CC02800090DFC /* help_thank_note_inset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E76FB215CC02700090DFC /* help_thank_note_inset@2x.png */; };
 		5C4E7702215CC02800090DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E76FD215CC02800090DFC /* Main.storyboard */; };
 		5C4E7706215CC04000090DFC /* SHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E7705215CC04000090DFC /* SHAlertView.m */; };
-		5C4E7713215CC74A00090DFC /* SHClickTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E770F215CC74A00090DFC /* SHClickTextModel.m */; };
-		5C4E7714215CC74A00090DFC /* SHClickTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E7710215CC74A00090DFC /* SHClickTextView.m */; };
+		5CD6840B22E58D34001B8945 /* SHClickTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD6840922E58D34001B8945 /* SHClickTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,10 +57,8 @@
 		5C4E76FE215CC02800090DFC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5C4E7704215CC04000090DFC /* SHAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAlertView.h; sourceTree = "<group>"; };
 		5C4E7705215CC04000090DFC /* SHAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAlertView.m; sourceTree = "<group>"; };
-		5C4E770F215CC74A00090DFC /* SHClickTextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHClickTextModel.m; sourceTree = "<group>"; };
-		5C4E7710215CC74A00090DFC /* SHClickTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHClickTextView.m; sourceTree = "<group>"; };
-		5C4E7711215CC74A00090DFC /* SHClickTextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHClickTextModel.h; sourceTree = "<group>"; };
-		5C4E7712215CC74A00090DFC /* SHClickTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHClickTextView.h; sourceTree = "<group>"; };
+		5CD6840922E58D34001B8945 /* SHClickTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHClickTextView.m; sourceTree = "<group>"; };
+		5CD6840A22E58D34001B8945 /* SHClickTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHClickTextView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +109,7 @@
 		5C4E76C7215CC00400090DFC /* SHAlertViewExmpale */ = {
 			isa = PBXGroup;
 			children = (
-				5C4E770E215CC74A00090DFC /* SHClickTextView */,
+				5CD6840822E58D34001B8945 /* SHClickTextView */,
 				5C4E7703215CC04000090DFC /* SHAlertView */,
 				5C4E76C8215CC00400090DFC /* AppDelegate.h */,
 				5C4E76C9215CC00400090DFC /* AppDelegate.m */,
@@ -155,13 +152,11 @@
 			path = SHAlertView;
 			sourceTree = "<group>";
 		};
-		5C4E770E215CC74A00090DFC /* SHClickTextView */ = {
+		5CD6840822E58D34001B8945 /* SHClickTextView */ = {
 			isa = PBXGroup;
 			children = (
-				5C4E7711215CC74A00090DFC /* SHClickTextModel.h */,
-				5C4E770F215CC74A00090DFC /* SHClickTextModel.m */,
-				5C4E7712215CC74A00090DFC /* SHClickTextView.h */,
-				5C4E7710215CC74A00090DFC /* SHClickTextView.m */,
+				5CD6840A22E58D34001B8945 /* SHClickTextView.h */,
+				5CD6840922E58D34001B8945 /* SHClickTextView.m */,
 			);
 			path = SHClickTextView;
 			sourceTree = "<group>";
@@ -298,9 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C4E76FF215CC02800090DFC /* ViewController.m in Sources */,
-				5C4E7714215CC74A00090DFC /* SHClickTextView.m in Sources */,
+				5CD6840B22E58D34001B8945 /* SHClickTextView.m in Sources */,
 				5C4E76D8215CC00400090DFC /* main.m in Sources */,
-				5C4E7713215CC74A00090DFC /* SHClickTextModel.m in Sources */,
 				5C4E7706215CC04000090DFC /* SHAlertView.m in Sources */,
 				5C4E76CA215CC00400090DFC /* AppDelegate.m in Sources */,
 			);

@@ -14,7 +14,7 @@
 
 @implementation SHClickTextView
 
-static NSString *mark = @"SHClickTextView";
+static NSString *mark = @"link";
 
 #pragma mark - 实例化
 - (instancetype)init {
@@ -40,6 +40,7 @@ static NSString *mark = @"SHClickTextView";
     self.editable = NO;
     self.scrollEnabled = NO;
     self.delegate = self;
+    self.dataDetectorTypes = UIDataDetectorTypeAll;
 }
 
 - (void)setTextContainerInset:(UIEdgeInsets)textContainerInset{
@@ -116,5 +117,13 @@ static NSString *mark = @"SHClickTextView";
     }
     return NO;
 }
+
+@end
+
+
+/**
+ 文字局部点击Model
+ */
+@implementation SHClickTextModel
 
 @end

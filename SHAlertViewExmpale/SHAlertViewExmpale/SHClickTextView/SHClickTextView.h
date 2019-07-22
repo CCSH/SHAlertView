@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SHClickTextModel.h"
 
-@class SHClickTextView;
+@class SHClickTextView,SHClickTextModel;
 //文字局部点击回调
 typedef void (^SHClickTextBlock)(SHClickTextModel *model,SHClickTextView *textView);
 
@@ -31,3 +30,17 @@ typedef void (^SHClickTextBlock)(SHClickTextModel *model,SHClickTextView *textVi
 - (BOOL)didSelectLinkWithUrl:(NSURL *)URL;
 
 @end
+
+/**
+ 文字局部点击Model
+ */
+@interface SHClickTextModel : NSObject
+
+//参数
+@property (nonatomic, copy) id parameter;
+//范围
+@property (nonatomic, assign) NSRange range;
+
+@end
+
+
