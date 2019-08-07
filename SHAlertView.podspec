@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "SHAlertView"
-    s.version      = "2.0.2"
+    s.version      = "2.0.3"
     s.summary      = "悬浮框"
     s.homepage     = "https://github.com/CCSH/SHAlertView"
     s.source       = { :git => "https://github.com/CCSH/SHAlertView.git", :tag => s.version }

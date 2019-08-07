@@ -21,9 +21,10 @@
 }
 
 - (IBAction)btn1Action:(id)sender {
-    SHAlertView *ale = [[SHAlertView alloc]initWithTitle:@"标题" message:@"内容" cancelTitle:@"取消" sureTitle:@"确认" cancelAction:nil sureAction:^{
+    SHAlertView *ale = [[SHAlertView alloc]initWithTitle:@"标题" message:@"内容" cancelTitle:nil sureTitle:@"确认"];
+    ale.sureAction = ^{
         NSLog(@"确认");
-    }];
+    };
     [ale show];
 }
 
@@ -42,41 +43,44 @@
     model.parameter = @"参数1";
     model.range = NSMakeRange(1, 4);
 
-    SHAlertView *ale = [[SHAlertView alloc]initWithTitle:@"标题" messageAtt:messageAtt parameArr:@[model] cancelTitle:@"取消" sureTitle:@"确定" cancelAction:nil sureAction:nil textAction:^(NSString *parameter) {
+    SHAlertView *ale = [[SHAlertView alloc]initWithTitle:@"标题" messageAtt:messageAtt parameArr:@[model] cancelTitle:@"取消" sureTitle:nil];
+    ale.textAction = ^(NSString *parameter) {
         NSLog(@"%@",parameter);
-    }];
+    };
     [ale show];
 }
 
 - (IBAction)btn3Action:(id)sender {
     
-    SHAlertView *ale = [[SHAlertView alloc]initWithImage:[UIImage imageNamed:@"help_thank_note_inset"] cancelTitle:@"取消" sureTitle:@"确认" cancelAction:nil sureAction:^{
-        NSLog(@"确认");
-    }];
+    SHAlertView *ale = [[SHAlertView alloc]initWithImage:[UIImage imageNamed:@"help_thank_note_inset"] cancelTitle:@"取消" sureTitle:@"确认"];
+    ale.sureAction = ^{
+         NSLog(@"确认");
+    };
     [ale show];
 }
 
 - (IBAction)btn4Action:(id)sender {
     
-    SHAlertView *ale = [[SHAlertView alloc]initWithIcon:[UIImage imageNamed:@"help_thank_note_inset"] message:@"内容" cancelTitle:@"取消" sureTitle:@"确认" cancelAction:nil sureAction:^{
+    SHAlertView *ale = [[SHAlertView alloc]initWithIcon:[UIImage imageNamed:@"help_thank_note_inset"] message:@"内容" cancelTitle:@"取消" sureTitle:@"确认"];
+    ale.sureAction = ^{
         NSLog(@"确认");
-    }];
+    };
     [ale show];
 }
 
 - (IBAction)btn5Action:(id)sender {
     
     UILabel *lab = [[UILabel alloc]init];
-    lab.frame = CGRectMake(20, 30, 100, 200);
+    lab.frame = CGRectMake(30, 30, 100, 200);
     lab.backgroundColor = [UIColor orangeColor];
     lab.text = @"asdkfhsakld";
     
-//    SHAlertView *ale = [[SHAlertView alloc]initWithIcon:[UIImage imageNamed:@"help_thank_note_inset"] view:lab cancelTitle:@"取消" sureTitle:@"确认" cancelAction:nil sureAction:^{
-//        NSLog(@"确认");
-//    }];
-    SHAlertView *ale = [[SHAlertView alloc]initWithView:lab cancelTitle:@"取消" sureTitle:@"确认" cancelAction:nil sureAction:^{
+//    SHAlertView *ale = [[SHAlertView alloc]initWithIcon:[UIImage imageNamed:@"help_thank_note_inset"] view:lab cancelTitle:@"取消" sureTitle:@"确认"];
+    
+    SHAlertView *ale = [[SHAlertView alloc]initWithView:lab cancelTitle:@"取消" sureTitle:@"确认"];
+    ale.sureAction = ^{
         NSLog(@"确认");
-    }];
+    };
     [ale show];
 }
 

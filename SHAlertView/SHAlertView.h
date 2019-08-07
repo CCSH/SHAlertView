@@ -23,6 +23,14 @@ typedef void(^AlertTextAction) (NSString *parameter);
  */
 @interface SHAlertView : UIView
 
+//回调
+//取消回调
+@property (nonatomic, copy) AlertCancelAction cancelAction;
+//确认回调
+@property (nonatomic, copy) AlertSureAction sureAction;
+//文本回调
+@property (nonatomic, copy) AlertTextAction textAction;
+
 /**
  初始化(标准)
 
@@ -30,16 +38,11 @@ typedef void(^AlertTextAction) (NSString *parameter);
  @param message 内容 (可以是 NSString、NSAttributedString)
  @param cancelTitle 取消名称
  @param sureTitle 确认名称
- @param cancelAction 取消回调
- @param sureAction 确认回调
  */
 - (instancetype)initWithTitle:(id)title
                       message:(id)message
                   cancelTitle:(NSString *)cancelTitle
-                    sureTitle:(NSString *)sureTitle
-                 cancelAction:(AlertCancelAction)cancelAction
-                   sureAction:(AlertSureAction)sureAction;
-
+                    sureTitle:(NSString *)sureTitle;
 /**
  初始化(富文本)
 
@@ -48,18 +51,12 @@ typedef void(^AlertTextAction) (NSString *parameter);
  @param parameArr 属性集合(SHClickTextModel)
  @param cancelTitle 取消名称
  @param sureTitle 确认名称
- @param cancelAction 取消回调
- @param sureAction 确认回调
- @param textAction 文本回调
  */
 - (instancetype)initWithTitle:(id)title
                    messageAtt:(NSAttributedString *)messageAtt
                     parameArr:(NSArray <SHClickTextModel *>*)parameArr
                   cancelTitle:(NSString *)cancelTitle
-                    sureTitle:(NSString *)sureTitle
-                 cancelAction:(AlertCancelAction)cancelAction
-                   sureAction:(AlertSureAction)sureAction
-                   textAction:(AlertTextAction)textAction;
+                    sureTitle:(NSString *)sureTitle;
 
 
 /**
@@ -68,14 +65,10 @@ typedef void(^AlertTextAction) (NSString *parameter);
  @param image 插画
  @param cancelTitle 取消名称
  @param sureTitle 确认名称
- @param cancelAction 取消回调
- @param sureAction 确认回调
  */
 - (instancetype)initWithImage:(UIImage *)image
                   cancelTitle:(NSString *)cancelTitle
-                    sureTitle:(NSString *)sureTitle
-                 cancelAction:(AlertCancelAction)cancelAction
-                   sureAction:(AlertSureAction)sureAction;
+                    sureTitle:(NSString *)sureTitle;
 
 
 /**
@@ -85,15 +78,11 @@ typedef void(^AlertTextAction) (NSString *parameter);
  @param message 内容(可以是 NSString、NSAttributedString)
  @param cancelTitle 取消名称
  @param sureTitle 确认名称
- @param cancelAction 取消回调
- @param sureAction 确认回调
  */
 - (instancetype)initWithIcon:(UIImage *)icon
                       message:(id)message
                   cancelTitle:(NSString *)cancelTitle
-                    sureTitle:(NSString *)sureTitle
-                 cancelAction:(AlertCancelAction)cancelAction
-                   sureAction:(AlertSureAction)sureAction;
+                    sureTitle:(NSString *)sureTitle;
 
 /**
  初始化(图标、自定义视图)
@@ -107,9 +96,7 @@ typedef void(^AlertTextAction) (NSString *parameter);
 - (instancetype)initWithIcon:(UIImage *)icon
                         view:(UIView *)view
                  cancelTitle:(NSString *)cancelTitle
-                   sureTitle:(NSString *)sureTitle
-                cancelAction:(AlertCancelAction)cancelAction
-                  sureAction:(AlertSureAction)sureAction;
+                   sureTitle:(NSString *)sureTitle;
 
 /**
  初始化(自定义视图)
@@ -122,9 +109,7 @@ typedef void(^AlertTextAction) (NSString *parameter);
  */
 - (instancetype)initWithView:(UIView *)view
                  cancelTitle:(NSString *)cancelTitle
-                   sureTitle:(NSString *)sureTitle
-                cancelAction:(AlertCancelAction)cancelAction
-                  sureAction:(AlertSureAction)sureAction;
+                   sureTitle:(NSString *)sureTitle;
 
 
 /**

@@ -22,14 +22,6 @@
 //确认
 @property (nonatomic, strong) UIButton *surelBtn;
 
-//回调
-//取消回调
-@property (nonatomic, copy) AlertCancelAction cancelAction;
-//确认回调
-@property (nonatomic, copy) AlertSureAction sureAction;
-//文本回调
-@property (nonatomic, copy) AlertTextAction textAction;
-
 @end;
 
 @implementation SHAlertView
@@ -283,7 +275,7 @@
 }
 
 #pragma mark 添加链接点击
-- (CGFloat)addClickMessageAtt:(NSAttributedString *)messageAtt parameArr:(NSArray <SHClickTextModel *>*)parameArr textAction:(AlertTextAction)textAction viewY:(CGFloat)viewY{
+- (CGFloat)addClickMessageAtt:(NSAttributedString *)messageAtt parameArr:(NSArray <SHClickTextModel *>*)parameArr viewY:(CGFloat)viewY{
     
     if (messageAtt.length) {
         
@@ -371,17 +363,12 @@
 - (instancetype)initWithTitle:(id)title
                       message:(id)message
                   cancelTitle:(NSString *)cancelTitle
-                    sureTitle:(NSString *)sureTitle
-                 cancelAction:(AlertCancelAction)cancelAction
-                   sureAction:(AlertSureAction)sureAction{
+                    sureTitle:(NSString *)sureTitle{
     
     if (self = [super init]) {
     
         //配置UI
         [self configUI];
-        
-        self.cancelAction = cancelAction;
-        self.sureAction = sureAction;
         
         //标题不存在，内容存在
         if (![title length] && [message length]) {
@@ -417,19 +404,12 @@
                    messageAtt:(NSAttributedString *)messageAtt
                     parameArr:(NSArray <SHClickTextModel *>*)parameArr
                   cancelTitle:(NSString *)cancelTitle
-                    sureTitle:(NSString *)sureTitle
-                 cancelAction:(AlertCancelAction)cancelAction
-                   sureAction:(AlertSureAction)sureAction
-                   textAction:(AlertTextAction)textAction{
+                    sureTitle:(NSString *)sureTitle{
     
     if (self = [super init]) {
         
         //配置UI
         [self configUI];
-        
-        self.cancelAction = cancelAction;
-        self.sureAction = sureAction;
-        self.textAction = textAction;
         
         CGFloat view_y = 15;
         
@@ -437,7 +417,7 @@
         view_y = [self addTitle:title viewY:view_y];
         
         //链接点击
-        view_y = [self addClickMessageAtt:messageAtt parameArr:parameArr textAction:textAction viewY:view_y];
+        view_y = [self addClickMessageAtt:messageAtt parameArr:parameArr viewY:view_y];
         
         //分割线
         if (messageAtt.length || [title length]) {
@@ -458,17 +438,12 @@
 #pragma mark 初始化(插画)
 - (instancetype)initWithImage:(UIImage *)image
                   cancelTitle:(NSString *)cancelTitle
-                    sureTitle:(NSString *)sureTitle
-                 cancelAction:(AlertCancelAction)cancelAction
-                   sureAction:(AlertSureAction)sureAction{
+                    sureTitle:(NSString *)sureTitle{
     
     if (self = [super init]) {
         
         //配置UI
         [self configUI];
-        
-        self.cancelAction = cancelAction;
-        self.sureAction = sureAction;
         
         CGFloat view_y = 15;
         
@@ -492,17 +467,12 @@
 - (instancetype)initWithIcon:(UIImage *)icon
                      message:(id)message
                  cancelTitle:(NSString *)cancelTitle
-                   sureTitle:(NSString *)sureTitle
-                cancelAction:(AlertCancelAction)cancelAction
-                  sureAction:(AlertSureAction)sureAction{
+                   sureTitle:(NSString *)sureTitle{
     
     if (self = [super init]) {
         
         //配置UI
         [self configUI];
-        
-        self.cancelAction = cancelAction;
-        self.sureAction = sureAction;
         
         CGFloat view_y = 15;
         
@@ -531,17 +501,12 @@
 - (instancetype)initWithIcon:(UIImage *)icon
                         view:(UIView *)view
                  cancelTitle:(NSString *)cancelTitle
-                   sureTitle:(NSString *)sureTitle
-                cancelAction:(AlertCancelAction)cancelAction
-                  sureAction:(AlertSureAction)sureAction{
+                   sureTitle:(NSString *)sureTitle{
     
     if (self = [super init]) {
         
         //配置UI
         [self configUI];
-        
-        self.cancelAction = cancelAction;
-        self.sureAction = sureAction;
         
         CGFloat view_y = 0;
         
@@ -567,17 +532,12 @@
 #pragma mark 初始化(自定义视图)
 - (instancetype)initWithView:(UIView *)view
                  cancelTitle:(NSString *)cancelTitle
-                   sureTitle:(NSString *)sureTitle
-                cancelAction:(AlertCancelAction)cancelAction
-                  sureAction:(AlertSureAction)sureAction{
+                   sureTitle:(NSString *)sureTitle{
     
     if (self = [super init]) {
         
         //配置UI
         [self configUI];
-        
-        self.cancelAction = cancelAction;
-        self.sureAction = sureAction;
         
         CGFloat view_y = 0;
         //自定义视图
