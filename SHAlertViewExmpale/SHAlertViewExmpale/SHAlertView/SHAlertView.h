@@ -31,6 +31,9 @@ typedef void(^AlertTextAction) (NSString *parameter);
 //文本回调
 @property (nonatomic, copy) AlertTextAction textAction;
 
+//是否用默认动画(淡入淡出)
+@property (nonatomic, assign) BOOL isAnimation;
+
 /**
  初始化(标准)
 
@@ -90,8 +93,6 @@ typedef void(^AlertTextAction) (NSString *parameter);
  @param view 自定义视图
  @param cancelTitle 取消名称
  @param sureTitle 确认名称
- @param cancelAction 取消回调
- @param sureAction 确认回调
  */
 - (instancetype)initWithIcon:(UIImage *)icon
                         view:(UIView *)view
@@ -104,8 +105,6 @@ typedef void(^AlertTextAction) (NSString *parameter);
  @param view 自定义视图
  @param cancelTitle 取消名称
  @param sureTitle 确认名称
- @param cancelAction 取消回调
- @param sureAction 确认回调
  */
 - (instancetype)initWithView:(UIView *)view
                  cancelTitle:(NSString *)cancelTitle

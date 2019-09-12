@@ -41,9 +41,13 @@
 
     SHClickTextModel *model = [[SHClickTextModel alloc]init];
     model.parameter = @"参数1";
-    model.range = NSMakeRange(1, 4);
+    model.range = NSMakeRange(1, 3);
+    
+    SHClickTextModel *model2 = [[SHClickTextModel alloc]init];
+    model2.parameter = @"参数2";
+    model2.range = NSMakeRange(6, 3);
 
-    SHAlertView *ale = [[SHAlertView alloc]initWithTitle:@"标题" messageAtt:messageAtt parameArr:@[model] cancelTitle:@"取消" sureTitle:nil];
+    SHAlertView *ale = [[SHAlertView alloc]initWithTitle:@"标题" messageAtt:messageAtt parameArr:@[model,model2] cancelTitle:@"取消" sureTitle:nil];
     ale.textAction = ^(NSString *parameter) {
         NSLog(@"%@",parameter);
     };

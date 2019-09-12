@@ -72,6 +72,7 @@
     if (!_cancelBtn) {
         _cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         _cancelBtn.frame = CGRectMake(0, 0, kAlertContentWidth, 48);
+        _cancelBtn.backgroundColor = [UIColor whiteColor];
         _cancelBtn.tag = 1;
         _cancelBtn.titleLabel.font = [UIFont systemFontOfSize:16];
         [_cancelBtn setTitleColor:[UIColor darkGrayColor] forState:0];
@@ -86,6 +87,7 @@
     if (!_surelBtn) {
         _surelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         _surelBtn.frame = CGRectMake(0, 0, kAlertContentWidth, 48);
+        _surelBtn.backgroundColor = [UIColor whiteColor];
         _surelBtn.tag = 2;
         _surelBtn.titleLabel.font = [UIFont systemFontOfSize:16];
         [_surelBtn setTitleColor:[UIColor orangeColor] forState:0];
@@ -248,6 +250,8 @@
 - (CGFloat)addImage:(UIImage *)image viewY:(CGFloat)viewY{
     
     if (image) {
+        
+        self.messageText.backgroundColor = [UIColor clearColor];
         
         CGFloat image_h = (image.size.height*kAlertContentWidth)/image.size.width;
         //添加图片
@@ -568,20 +572,27 @@
     self.frame = CGRectMake(0, 0, CGRectGetWidth(inView.frame), CGRectGetHeight(inView.frame));
     [inView addSubview:self];
     
-    self.alpha = 0;
-    [UIView animateWithDuration:0.2 animations:^{
-        self.alpha = 1;
-    }];
+    if (self.isAnimation) {
+        self.mainView.alpha = 0;
+        [UIView animateWithDuration:0.2 animations:^{
+            self.mainView.alpha = 1;
+        }];
+    }
+
 }
 
 #pragma mark 隐藏
 - (void)hideView{
     
-    [UIView animateWithDuration:0.2 animations:^{
-        self.alpha = 0;
-    }completion:^(BOOL finished) {
+    if (self.isAnimation) {
+        [UIView animateWithDuration:0.2 animations:^{
+            self.mainView = 0;
+        }completion:^(BOOL finished) {
+            [self removeFromSuperview];
+        }];
+    }else{
         [self removeFromSuperview];
-    }];
+    }
 }
 
 @end

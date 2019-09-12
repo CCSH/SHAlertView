@@ -17,8 +17,8 @@
 static NSString *mark = @"link";
 
 #pragma mark - 实例化
-- (instancetype)init {
-    self = [super init];
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
     if (self) {
         //初始化
         [self setup];
@@ -41,6 +41,9 @@ static NSString *mark = @"link";
     self.scrollEnabled = NO;
     self.delegate = self;
     self.dataDetectorTypes = UIDataDetectorTypeAll;
+    if (@available(iOS 11.0, *)) {
+        self.textDragInteraction.enabled = NO;
+    }
 }
 
 - (void)setTextContainerInset:(UIEdgeInsets)textContainerInset{
