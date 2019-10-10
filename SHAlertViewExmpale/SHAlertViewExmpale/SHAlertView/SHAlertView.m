@@ -33,7 +33,7 @@
         _mainView = [[UIView alloc]init];
         _mainView.backgroundColor = [UIColor whiteColor];
         _mainView.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
-        _mainView.layer.cornerRadius = 4;
+        _mainView.layer.cornerRadius = 8;
         _mainView.userInteractionEnabled = YES;
         [self addSubview:_mainView];
     }
@@ -61,7 +61,7 @@
         _messageText.userInteractionEnabled = YES;
         _messageText.frame = CGRectMake(15, 0, kAlertContentWidth - 2*15, 0);
         _messageText.font = [UIFont systemFontOfSize:16];
-        _messageText.textColor = [UIColor lightGrayColor];
+        _messageText.textColor = [UIColor grayColor];
         [self.mainView addSubview:_messageText];
     }
     return _messageText;
@@ -70,13 +70,9 @@
 //取消
 - (UIButton *)cancelBtn{
     if (!_cancelBtn) {
-        _cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _cancelBtn.frame = CGRectMake(0, 0, kAlertContentWidth, 48);
-        _cancelBtn.backgroundColor = [UIColor whiteColor];
+        _cancelBtn = [self getButton];
+        [_cancelBtn setTitleColor:[UIColor lightGrayColor] forState:0];
         _cancelBtn.tag = 1;
-        _cancelBtn.titleLabel.font = [UIFont systemFontOfSize:16];
-        [_cancelBtn setTitleColor:[UIColor darkGrayColor] forState:0];
-        [_cancelBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.mainView addSubview:_cancelBtn];
     }
     return _cancelBtn;
@@ -85,16 +81,22 @@
 //确认
 - (UIButton *)surelBtn{
     if (!_surelBtn) {
-        _surelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _surelBtn.frame = CGRectMake(0, 0, kAlertContentWidth, 48);
-        _surelBtn.backgroundColor = [UIColor whiteColor];
+        _surelBtn = [self getButton];
         _surelBtn.tag = 2;
-        _surelBtn.titleLabel.font = [UIFont systemFontOfSize:16];
-        [_surelBtn setTitleColor:[UIColor orangeColor] forState:0];
-        [_surelBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.mainView addSubview:_surelBtn];
     }
     return _surelBtn;
+}
+
+- (UIButton *)getButton{
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, kAlertContentWidth, 48);
+    btn.titleLabel.font = [UIFont systemFontOfSize:16];
+    [btn setTitleColor:[UIColor orangeColor] forState:0];
+    [btn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
+    
+    return btn;
 }
 
 #pragma mark - 私有方法
@@ -370,7 +372,7 @@
                     sureTitle:(NSString *)sureTitle{
     
     if (self = [super init]) {
-    
+        
         //配置UI
         [self configUI];
         
@@ -578,7 +580,7 @@
             self.mainView.alpha = 1;
         }];
     }
-
+    
 }
 
 #pragma mark 隐藏
