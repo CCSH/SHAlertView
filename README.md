@@ -1,6 +1,6 @@
 # SHAlertView
 # 使用 pod 导入
-[![Pod Version](http://img.shields.io/cocoapods/v/SHAlertView.svg?style=flat)](http://cocoadocs.org/docsets/SHAlertView/)
+[![Pod Version](http://img.shields.io/cocoapods/v/SHAlertView.svg?style=flat)]
 ```
 pod 'SHAlertView'
 ```
